@@ -23,7 +23,7 @@ kanban-plugin: basic
 - [ ] Player animation for going into door/teleporter #animation
 - [ ] Create tilemap for level 2 #tilemap
 - [ ] Create tilemaps for level 3 #tilemap
-- [ ] Create backdrop for level 2 #tilemap
+- [ ] Create backdrop for level 2
 - [ ] Create backdrop for level 3
 - [ ] Create 3D eye in blender
 - [ ] Create backdrop for level 1
@@ -40,6 +40,7 @@ kanban-plugin: basic
 
 ## COMPLETE
 
+**Complete**
 - [ ] Create tilemaps for level 1 #tilemap
 
 
@@ -51,6 +52,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","hide-tags-in-title":true,"tag-colors":[{"tagKey":"#tilemap","color":"rgba(108, 240, 108, 1)","backgroundColor":"rgba(71, 171, 191, 0.1)"},{"tagKey":"#programming","color":"rgba(108, 233, 240, 1)","backgroundColor":""},{"tagKey":"#animation","color":"rgba(216, 155, 246, 1)","backgroundColor":""}]}
 ```
 %%
